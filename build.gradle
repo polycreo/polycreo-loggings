@@ -53,7 +53,7 @@ repositories {
 }
 
 dependencies {
-	api 'org.springframework.boot:spring-boot-starter-logging'
+	api 'org.slf4j:slf4j-api'
 	compileOnly 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
