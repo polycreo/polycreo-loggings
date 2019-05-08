@@ -64,6 +64,7 @@ repositories {
 
 dependencies {
 	api 'org.slf4j:slf4j-api'
+	compileOnly "javax.servlet:javax.servlet-api"
 
 	// lombok
 	compileOnly 'org.projectlombok:lombok'
@@ -73,6 +74,7 @@ dependencies {
 
 	// test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation "javax.servlet:javax.servlet-api"
 }
 
 bootJar {
