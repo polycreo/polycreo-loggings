@@ -9,16 +9,4 @@
   <disallow pkg="javax.annotation"/>
   <disallow pkg="groovy"/>
 
-  <subpackage name="util">
-    <disallow pkg="org.ws2ten1.loggings.web"/>
-  </subpackage>
-
-  <subpackage name="model">
-    <!-- モデルがWeb層やconfigに依存してはいけない -->
-    <disallow pkg="org.springframework.web.servlet"/>
-    <disallow pkg="org.springframework.security.oauth2.provider"/>
-    <disallow pkg="org.ws2ten1.loggings"/>
-    <disallow pkg="org.ws2ten1.loggings.web"/>
-  </subpackage>
-
 </import-control>
