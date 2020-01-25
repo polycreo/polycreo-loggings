@@ -3,4 +3,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'ws2ten1-loggings'
+rootProject.name = 'polycreo-loggings'

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ws2ten1.loggings;
+package org.polycreo.loggings;
 
 import lombok.experimental.UtilityClass;
 
